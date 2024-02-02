@@ -5,8 +5,8 @@ import "./globals.css";
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Passport Data Pages",
-  description: "Customize your passport data page!",
+  title: "Grand Canyon Hacks Passport Maker",
+  description: "Make your own passport for Grand Canyon Hacks!",
 };
 
 export default function RootLayout({

@@ -7,11 +7,11 @@ export const runtime = "edge";
 export default async function Home() {
   const defaultImageRes: ImageResponse = await generateDataPage({
     passportNumber: 0,
-    surname: "HACKER",
-    firstName: "WACK",
+    surname: "Appleseed",
+    firstName: "Jonny",
     dateOfBirth: new Date("06 Apr 1200"),
     dateOfIssue: new Date(),
-    placeOfOrigin: "THE WOODS",
+    placeOfOrigin: "The Canyon",
   });
   const defaultImageBlob = await defaultImageRes.blob();
   const defaultImageBuffer = Buffer.from(await defaultImageBlob.arrayBuffer());
