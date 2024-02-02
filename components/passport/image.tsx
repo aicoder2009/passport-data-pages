@@ -23,7 +23,8 @@ export function ImageSection({ imageUrl }: { imageUrl: string }) {
           width: 73 * IMAGE_GENERATION_SCALE_FACTOR,
         }}
       >
-        PASSPORT
+        GRAND CANYON PASSPORT
+        
       </div>
 
       <img

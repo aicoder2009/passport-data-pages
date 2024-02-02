@@ -66,7 +66,7 @@ export function DataSection({
       </div>
       <Description title="SURNAME" content={surname} />
       <Description title="NAME" content={firstName} />
-      <Description title="NATIONALITY" content={"REPUBLIC OF HACKERLAND"} />
+      <Description title="NATIONALITY" content={"REPUBLIC OF THE CANYON"} />
       <div
         style={{
           fontSize: 13.333 * IMAGE_GENERATION_SCALE_FACTOR,
