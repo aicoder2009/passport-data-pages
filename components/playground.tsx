@@ -33,7 +33,7 @@ const FormSchema = z.object({
   placeOfOrigin: z.string().max(13),
   dateOfBirth: z.string().optional(),
   image: z.custom<File>((val) => val instanceof File, "Please upload a file"),
-  passportNumber: z.string().max(4),
+  passportNumber: z.string().max(5),
 });
 
 export default function Playground({
